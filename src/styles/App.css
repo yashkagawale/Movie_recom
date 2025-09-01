@@ -55,6 +55,13 @@ a {
   line-height: 1;
 }
 
+/*Moblie Styles*/
+@media (max-width: 770px) {
+  .brand {
+    display: none;
+    visibility: hidden;
+  }
+}
 
 /* Search Bar (centered by default) */
 .search {
@@ -114,7 +121,7 @@ a {
 }
 
 /*  Mobile Styles */
-@media (max-width: 768px) {
+@media (max-width: 770px) {
   .hamburger {
     display: block;
     margin-left: auto;
@@ -261,7 +268,7 @@ h2 {
   inset: 0; 
   background-size: cover; 
   background-position: center; 
-  opacity: .15; 
+  opacity: .1; 
   filter: blur(10px);
 }
 
@@ -271,7 +278,7 @@ h2 {
   grid-template-columns: 200px 1fr; 
   gap: 1rem; 
   padding: 1rem; 
-  background: rgba(18,22,36,.7); 
+  background: rgba(42, 45, 58, 0.2); 
   border: 1px solid #232733; 
   border-radius: 1rem; 
 }
